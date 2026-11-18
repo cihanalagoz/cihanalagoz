@@ -126,11 +126,6 @@ mindmap
 
 ## 🎮 Arcade corner
 
-<p align="center">
-  <a href="https://skyline-run.vercel.app/share/cihanalagoz"><img width="80%" alt="Fly through my GitHub year in Skyline Run" src="https://skyline-run.vercel.app/api/og/cihanalagoz"></a><br/>
-  <sub>✈️ Every day is a building. Click and fly a plane through my year of commits.</sub>
-</p>
-
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/cihanalagoz/cihanalagoz/output/pacman-contribution-graph-dark.svg">
   <img width="100%" alt="Pac-Man eating my contribution graph" src="https://raw.githubusercontent.com/cihanalagoz/cihanalagoz/output/pacman-contribution-graph.svg">
