@@ -27,67 +27,6 @@ const cihan = {
 
 🌱 I also send fixes upstream, like [vercel/next.js#102014](https://github.com/vercel/next.js/pull/102014).
 
-📍 Coding from Ankara:
-
-```geojson
-{
-  "type": "FeatureCollection",
-  "features": [
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Ankara, Türkiye"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [32.8597, 39.9334]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Around here",
-        "stroke": "#8957e5",
-        "fill": "#8957e5",
-        "fill-opacity": 0.15
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [33.577, 39.9334],
-            [33.5525, 40.0758],
-            [33.4809, 40.2084],
-            [33.3669, 40.3223],
-            [33.2183, 40.4097],
-            [33.0453, 40.4647],
-            [32.8597, 40.4834],
-            [32.6741, 40.4647],
-            [32.5011, 40.4097],
-            [32.3525, 40.3223],
-            [32.2385, 40.2084],
-            [32.1669, 40.0758],
-            [32.1424, 39.9334],
-            [32.1669, 39.791],
-            [32.2385, 39.6584],
-            [32.3525, 39.5445],
-            [32.5011, 39.4571],
-            [32.6741, 39.4021],
-            [32.8597, 39.3834],
-            [33.0453, 39.4021],
-            [33.2183, 39.4571],
-            [33.3669, 39.5445],
-            [33.4809, 39.6584],
-            [33.5525, 39.791],
-            [33.577, 39.9334]
-          ]
-        ]
-      }
-    }
-  ]
-}
-```
-
 ## 🧰 Tech I work with
 
 <table>
@@ -170,10 +109,6 @@ mindmap
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/cihanalagoz/cihanalagoz/main/profile-3d-contrib/profile-night-rainbow.svg">
   <img width="100%" alt="3D contribution graph" src="https://raw.githubusercontent.com/cihanalagoz/cihanalagoz/main/profile-3d-contrib/profile-green-animate.svg">
 </picture>
-
-<p align="center">
-  <a href="https://github.com/cihanalagoz/cihanalagoz/blob/skyline/skyline.stl"><img alt="Spin my year in 3D" src="https://img.shields.io/badge/Spin%20my%20year%20in%203D-GitHub%20Skyline-8957e5?style=for-the-badge&logo=github&logoColor=white"></a>
-</p>
 
 <p align="center">
   <picture>
