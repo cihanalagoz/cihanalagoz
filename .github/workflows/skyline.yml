@@ -14,17 +14,16 @@ jobs:
     env:
       GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     steps:
-      - uses: actions/checkout@v7.0.1
       - name: Generate STL
         run: |
           gh extension install github/gh-skyline --pin v0.1.9
-          mkdir -p skyline
-          gh skyline --user "${{ github.repository_owner }}" --year "$(date +%Y)" --output skyline/skyline.stl
-      - name: Commit
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add skyline/skyline.stl
-          git diff --cached --quiet || git commit -m "Update GitHub Skyline model"
-          git pull --rebase
-          git push
+          mkdir -p dist
+          gh skyline --user "${{ github.repository_owner }}" --year "$(date +%Y)" --output dist/skyline.stl
+      - uses: crazy-max/ghaction-github-pages@v5.0.0
+        with:
+          target_branch: skyline
+          build_dir: dist
+          keep_history: false
+          jekyll: false
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
