@@ -13,17 +13,10 @@
 
 ## 👋 whoami
 
-```ts
-const cihan = {
-  home: "Ankara, Türkiye 🇹🇷",
-  writes: ["TypeScript", "JavaScript", "Python", "C#", "Swift"],
-  builds: ["web apps", "APIs", "AI agents", "developer SDKs"],
-  ships: ["Docker", "Kubernetes", "Helm", "GitHub Actions"],
-  onGitHubSince: 2015,
-  status: "writing code",
-  askMeAbout: ["React and Next.js", "AI agents and MCP", "making TypeScript types behave"],
-} as const;
-```
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/cihanalagoz/cihanalagoz/main/neofetch/dark.svg">
+  <img width="100%" alt="cihan@github neofetch: an ASCII portrait next to my stack and GitHub stats" src="https://raw.githubusercontent.com/cihanalagoz/cihanalagoz/main/neofetch/light.svg">
+</picture>
 
 🌱 I also send fixes upstream, like [vercel/next.js#102014](https://github.com/vercel/next.js/pull/102014).
 
