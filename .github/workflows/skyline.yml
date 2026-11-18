@@ -1,0 +1,30 @@
+name: Skyline
+
+on:
+  schedule:
+    - cron: "45 4 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  skyline:
+    runs-on: ubuntu-latest
+    env:
+      GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    steps:
+      - uses: actions/checkout@v7.0.1
+      - name: Generate STL
+        run: |
+          gh extension install github/gh-skyline --pin v0.1.9
+          mkdir -p skyline
+          gh skyline --user "${{ github.repository_owner }}" --year "$(date +%Y)" --output skyline/skyline.stl
+      - name: Commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add skyline/skyline.stl
+          git diff --cached --quiet || git commit -m "Update GitHub Skyline model"
+          git pull --rebase
+          git push

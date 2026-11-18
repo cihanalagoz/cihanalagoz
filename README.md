@@ -27,6 +27,21 @@ const cihan = {
 
 🌱 I also send fixes upstream, like [vercel/next.js#102014](https://github.com/vercel/next.js/pull/102014).
 
+📍 Coding from Ankara:
+
+```geojson
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": { "name": "Ankara, Türkiye" },
+      "geometry": { "type": "Point", "coordinates": [32.8597, 39.9334] }
+    }
+  ]
+}
+```
+
 ## 🧰 Tech I work with
 
 <table>
@@ -109,6 +124,10 @@ mindmap
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/cihanalagoz/cihanalagoz/main/profile-3d-contrib/profile-night-rainbow.svg">
   <img width="100%" alt="3D contribution graph" src="https://raw.githubusercontent.com/cihanalagoz/cihanalagoz/main/profile-3d-contrib/profile-green-animate.svg">
 </picture>
+
+<p align="center">
+  <a href="https://github.com/cihanalagoz/cihanalagoz/blob/main/skyline/skyline.stl"><img alt="Spin my year in 3D" src="https://img.shields.io/badge/Spin%20my%20year%20in%203D-GitHub%20Skyline-8957e5?style=for-the-badge&logo=github&logoColor=white"></a>
+</p>
 
 <p align="center">
   <picture>
