@@ -116,8 +116,8 @@ mindmap
     <img width="49%" alt="contribution streak" src="https://streak-stats.demolab.com/?user=cihanalagoz&theme=default&hide_border=true&background=FFFFFF00">
   </picture>
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://trophy.ryglcloud.net/?username=cihanalagoz&theme=onedark&no-frame=true&no-bg=true&row=2&column=2&margin-w=12&margin-h=12&title=Commit,PullRequest,Followers,Experience">
-    <img width="49%" alt="GitHub trophies" src="https://trophy.ryglcloud.net/?username=cihanalagoz&theme=flat&no-frame=true&no-bg=true&row=2&column=2&margin-w=12&margin-h=12&title=Commit,PullRequest,Followers,Experience">
+    <source media="(prefers-color-scheme: dark)" srcset="https://trophy.ryglcloud.net/?username=cihanalagoz&theme=onedark&no-frame=true&no-bg=true&row=2&column=2&margin-w=12&margin-h=12&title=Commit%2CPullRequest%2CFollowers%2CExperience">
+    <img width="49%" alt="GitHub trophies" src="https://trophy.ryglcloud.net/?username=cihanalagoz&theme=flat&no-frame=true&no-bg=true&row=2&column=2&margin-w=12&margin-h=12&title=Commit%2CPullRequest%2CFollowers%2CExperience">
   </picture>
 </p>
 
