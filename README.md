@@ -105,13 +105,6 @@ mindmap
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com/?user=cihanalagoz&theme=github-dark-blue&hide_border=true&background=0D111700">
-    <img alt="contribution streak" src="https://streak-stats.demolab.com/?user=cihanalagoz&theme=default&hide_border=true&background=FFFFFF00">
-  </picture>
-</p>
-
-<p align="center">
-  <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://trophy.ryglcloud.net/?username=cihanalagoz&theme=onedark&no-frame=true&no-bg=true&row=1&column=4&margin-w=16&title=Commit%2CPullRequest%2CFollowers%2CExperience">
     <img width="85%" alt="GitHub trophies" src="https://trophy.ryglcloud.net/?username=cihanalagoz&theme=flat&no-frame=true&no-bg=true&row=1&column=4&margin-w=16&title=Commit%2CPullRequest%2CFollowers%2CExperience">
   </picture>
